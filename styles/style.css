@@ -36,3 +36,12 @@ div.phoneimg{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#screen{
+    position: relative;
+    top: 300px;
+    left: 70px;
+    border-radius: 15px;
+    width: 605px;
+    height: 850px;
+}
