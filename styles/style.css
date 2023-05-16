@@ -6,8 +6,8 @@
 }
 
 html , body{
-    height: 100vh;
-    width: 100vw;
+    height: 99vh;
+    width: 99vw;
 }
 
 body{
@@ -19,29 +19,69 @@ body{
 }
 
 main{
-    height: 100vh;
+    height: 99vh;
     position: relative;
 }
 
 section#phone{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 div.phoneimg{
-    width: 741px;
-    height: 1000px;
-    background-image: url('../pacote-d013/imagens/frameipad.png');
+    min-width: 654px;
+    height: 900px;
+    background-image: url('../pacote-d013/imagens/frame-ipad.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #screen{
     position: relative;
-    top: 300px;
-    left: 70px;
-    border-radius: 15px;
-    width: 605px;
-    height: 850px;
+    top: 42px;
+    left: 39px;
+    border-radius: 10px;
+    min-width: 575px;
+    height: 816px;
+}
+
+div.linkimg{
+    text-align: right;
+}
+
+img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 7px;
+    box-shadow: 3px 3px 11px #000000ad;
+    box-sizing: border-box;
+    
+}
+
+.imghome:hover{
+    background: linear-gradient(#111, #111) padding-box, linear-gradient(180deg, #0e0e0e, #707070) border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px #474747, 0px 0px 25px #474747, 0px 0px 50px #474747, 0px 0px 200px #474747;
+}
+
+.imggh:hover{
+    background: linear-gradient(#111, #111) padding-box, linear-gradient(180deg, #159234, #3BA447) border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px #3BA447, 0px 0px 25px #3BA447, 0px 0px 50px #3BA447, 0px 0px 200px #3BA447;
+}
+
+.imgyt:hover{
+    background: linear-gradient(#111, #111) padding-box, linear-gradient(180deg, #410000, #460000) border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: 0.8s;
+    box-shadow: 0px 0px 5px #c50202, 0px 0px 25px #c50202, 0px 0px 50px #c50202, 0px 0px 200px #c50202;
 }
